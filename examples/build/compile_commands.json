@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/euribeche/Documents/depth-camera/examples/build/hello-realsense",
+  "command": "/usr/bin/c++   -std=gnu++11 -o CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o -c /home/euribeche/Documents/depth-camera/examples/hello-realsense/rs-hello-realsense.cpp",
+  "file": "/home/euribeche/Documents/depth-camera/examples/hello-realsense/rs-hello-realsense.cpp",
+  "output": "hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o"
+},
+{
+  "directory": "/home/euribeche/Documents/depth-camera/examples/build/save-to-disk",
+  "command": "/usr/bin/c++  -I/home/euribeche/Documents/depth-camera/examples/save-to-disk/../../common -I/home/euribeche/Documents/depth-camera/examples/save-to-disk/../../third-party -std=gnu++11 -o CMakeFiles/rs-save-to-disk.dir/rs-save-to-disk.cpp.o -c /home/euribeche/Documents/depth-camera/examples/save-to-disk/rs-save-to-disk.cpp",
+  "file": "/home/euribeche/Documents/depth-camera/examples/save-to-disk/rs-save-to-disk.cpp",
+  "output": "save-to-disk/CMakeFiles/rs-save-to-disk.dir/rs-save-to-disk.cpp.o"
+},
+{
+  "directory": "/home/euribeche/Documents/depth-camera/examples/build/C/depth",
+  "command": "/usr/bin/cc  -I/home/euribeche/Documents/depth-camera/examples/C/depth/../../C  -o CMakeFiles/rs-depth.dir/rs-depth.c.o -c /home/euribeche/Documents/depth-camera/examples/C/depth/rs-depth.c",
+  "file": "/home/euribeche/Documents/depth-camera/examples/C/depth/rs-depth.c",
+  "output": "C/depth/CMakeFiles/rs-depth.dir/rs-depth.c.o"
+},
+{
+  "directory": "/home/euribeche/Documents/depth-camera/examples/build/C/color",
+  "command": "/usr/bin/cc  -I/home/euribeche/Documents/depth-camera/examples/C/color/../../common -I/home/euribeche/Documents/depth-camera/examples/C/color/../../third-party/imgui -I/home/euribeche/Documents/depth-camera/examples/C/color/../../C  -o CMakeFiles/rs-color.dir/rs-color.c.o -c /home/euribeche/Documents/depth-camera/examples/C/color/rs-color.c",
+  "file": "/home/euribeche/Documents/depth-camera/examples/C/color/rs-color.c",
+  "output": "C/color/CMakeFiles/rs-color.dir/rs-color.c.o"
+},
+{
+  "directory": "/home/euribeche/Documents/depth-camera/examples/build/C/distance",
+  "command": "/usr/bin/cc  -I/home/euribeche/Documents/depth-camera/examples/C/distance/../../C  -o CMakeFiles/rs-distance.dir/rs-distance.c.o -c /home/euribeche/Documents/depth-camera/examples/C/distance/rs-distance.c",
+  "file": "/home/euribeche/Documents/depth-camera/examples/C/distance/rs-distance.c",
+  "output": "C/distance/CMakeFiles/rs-distance.dir/rs-distance.c.o"
+}
+]
