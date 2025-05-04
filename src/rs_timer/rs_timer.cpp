@@ -6,7 +6,7 @@
 #include <ctime>
 
 #define STB_IMAGE_WRITE_IMPLEMENTATION
-#include "../../third-party/stb_image_write.h"
+#include "../third-party/stb_image_write.h"
 
 int main() {
 	time_t timestamp; 
