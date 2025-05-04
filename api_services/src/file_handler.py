@@ -7,10 +7,10 @@ path = "../../src/rs_timer/"
 
 class FileCreatedEventHandler(FileSystemEventHandler):
     def on_created(self, event):
-        file = glob.iglob("../../src/rs_timer/rs-save-*.png")
-        file.sort(key=os.path.getmtime, default=None)
+        file = glob.glob(os.path.join(path, "rs-save-*.png"))
+        file.sort(key=os.path.getmtime)
         for f in file[:-5]:
-            os.remove(file)
+            os.remove(f)
 
 event_handler = FileCreatedEventHandler()
 observer = Observer()
