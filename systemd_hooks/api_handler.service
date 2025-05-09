@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+
+[Unit]
+Description=FastAPI Handler Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/euribeche/Documents/depth-camera/api_services/src/
+ExecStart=/home/euribeche/Documents/depth-camera/api_services/bin/uvicorn api_handler:app --host 0.0.0.0 --port 8000
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

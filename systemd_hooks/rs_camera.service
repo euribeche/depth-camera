@@ -1,0 +1,12 @@
+[Unit]
+Description=Depth Camera Capture Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/euribeche/Documents/depth-camera/src/rs_timer/
+ExecStart=/home/euribeche/Documents/depth-camera/src/rs_timer/rs_timer
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

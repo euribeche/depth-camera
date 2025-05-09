@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+
+[Unit]
+Description=File Deletion Watchdog Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/euribeche/Documents/depth-camera/api_services/src/
+ExecStart=/home/euribeche/Documents/depth-camera/api_services/bin/python file_handler.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
