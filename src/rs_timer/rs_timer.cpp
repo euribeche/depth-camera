@@ -8,6 +8,8 @@
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "../third-party/stb_image_write.h"
 
+#define SLEEP_S 5
+
 int main() {
 	time_t timestamp; 
 	struct tm datetime;
@@ -38,6 +40,6 @@ int main() {
 			}
 		}
 		
-		std::this_thread::sleep_for(std::chrono::seconds(5));
+		std::this_thread::sleep_for(std::chrono::seconds(SLEEP_S));
 	}
 }
